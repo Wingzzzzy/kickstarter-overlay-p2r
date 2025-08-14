@@ -1,0 +1,6 @@
+[
+  { "amount": 250000, "label": "Funded" },
+  { "amount": 275000, "label": "Time of Day" },
+  { "amount": 300000, "label": "Sandbox Mode" },
+  { "amount": 400000, "label": "Console Mods" }
+]

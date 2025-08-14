@@ -1,0 +1,94 @@
+.kickstarter-goal-indicator.passed {
+  background: #e53935;
+  box-shadow: 0 0 8px #e5393599;
+}
+.kickstarter-goal.passed {
+  background: #e53935;
+  color: #fff;
+  text-decoration: line-through;
+  border: 1px solid #b71c1c;
+}
+#kickstarter-overlay {
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 32px 5px 32px 5px;
+  min-width: 0;
+  min-height: 80px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+}
+#kickstarter-pledged.in-bar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 8px #000, 0 0 4px #000;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 10;
+}
+#kickstarter-progress-bar {
+  width: 100%;
+  min-width: 320px;
+  height: 24px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  margin-bottom: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+#kickstarter-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #4caf50, #2196f3);
+  border-radius: 12px 0 0 12px;
+  transition: width 0.5s;
+}
+.kickstarter-goal-indicator {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 24px;
+  background: #ffd700;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  z-index: 2;
+  box-shadow: 0 0 8px #ffd70099;
+}
+.kickstarter-goal {
+  position: absolute;
+  font-size: 0.8em;
+  color: #222;
+  background: #ffd700;
+  padding: 2px 8px;
+  border-radius: 8px;
+  text-shadow: none;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0.95;
+  border: 1px solid #bfa100;
+  max-width: 90px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: 0 2px 8px #0002;
+}
+.kickstarter-goal.top {
+  top: -22px;
+}
+.kickstarter-goal.bottom {
+  bottom: -22px;
+}
+html, body {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
