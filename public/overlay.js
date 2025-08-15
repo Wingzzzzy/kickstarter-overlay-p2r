@@ -1,6 +1,6 @@
 // const API_URL = '/api/kickstarter';
 const API_URL = 'https://corsproxy.io/?https://www.kickstarter.com/projects/postal2redux/postal-2-redux/stats.json';
-const CONFIG_URL = '/config/stretchgoals.json';
+const CONFIG_URL = 'stretchgoals.json';
 
 async function fetchPledged() {
   const res = await fetch(API_URL);
