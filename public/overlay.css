@@ -80,6 +80,11 @@
   text-overflow: ellipsis;
   box-shadow: 0 2px 8px #0002;
 }
+.kickstarter-goal.last {
+  max-width: 220px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
 .kickstarter-goal.top {
   top: -22px;
 }

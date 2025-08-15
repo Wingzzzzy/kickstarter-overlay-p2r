@@ -2,5 +2,7 @@
   { "amount": 250000, "label": "Funded" },
   { "amount": 275000, "label": "Time of Day" },
   { "amount": 300000, "label": "Sandbox Mode" },
-  { "amount": 400000, "label": "Console Mods" }
+  { "amount": 400000, "label": "Console Mods" },
+  { "amount": 600000, "label": "Co-op" },
+  { "amount": 700000, "label": "AW Re-Imagined" }
 ]

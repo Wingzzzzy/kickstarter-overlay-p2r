@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kickstarter Overlay (Bot Screenshot)</title>
+  <link rel="stylesheet" href="overlay.css">
+  <style>
+    /* Override for bot screenshot: solid background */
+    #kickstarter-overlay {
+      background: #fff !important;
+      /* You can change #fff to any color you want for the bot image */
+    }
+    html, body {
+      background: #fff !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="kickstarter-overlay">
+    <div id="kickstarter-progress-bar">
+      <div id="kickstarter-progress" style="width:0%"></div>
+      <div id="kickstarter-pledged" class="in-bar">Loading...</div>
+    </div>
+  </div>
+  <script src="overlay.js"></script>
+</body>
+</html>

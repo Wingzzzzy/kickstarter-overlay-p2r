@@ -38,6 +38,9 @@ function renderGoals(goals, maxGoal, pledged) {
     // Alternate label position to avoid overlap
     const marker = document.createElement('div');
     let classes = 'kickstarter-goal ' + (i % 2 === 0 ? 'bottom' : 'top');
+    if (i === goals.length - 1) {
+      classes += ' last';
+    }
     if (pledged >= goal.amount) {
       classes += ' passed';
     }
